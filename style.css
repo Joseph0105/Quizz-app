@@ -12,3 +12,82 @@ body {
   background: linear-gradient(to right, #e0eafc, #cfdef3);
   padding: clamp(20px, 5vw, 50px) 20px 10px;
 }
+
+h2,
+h4 {
+  font-weight: 400;
+}
+label {
+  font-weight: 300;
+}
+span {
+  font-weight: 600;
+}
+
+h1 {
+  text-align: center;
+  padding: 3rem;
+  font-weight: 400;
+}
+
+.quiz-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question-block {
+  width: 80%;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 3px;
+  box-shadow: 2px 2px 8px rgb(161, 161, 161);
+  background-color: #f1f1f1;
+}
+
+.question-block h4 {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.question-block .question-label {
+  padding: 0.2rem;
+}
+
+.question-label input,
+label {
+  cursor: pointer;
+}
+
+.check-box {
+  padding: 3rem;
+  align-self: center;
+}
+
+.check-box button {
+  background-color: #f1f1f1;
+  border: none;
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 2px;
+  box-shadow: 2px 2px 8px rgb(161, 161, 161);
+}
+
+.show-result {
+  align-items: center;
+  background-color: #ffffff;
+  width: 80%;
+  text-align: center;
+  border-radius: 2px;
+  box-shadow: 2px 2px 8px rgb(161, 161, 161);
+}
+
+.show-result h2 {
+  padding: 1rem;
+}
+
+.show-result p {
+  display: none;
+  padding: 0.5rem;
+}
