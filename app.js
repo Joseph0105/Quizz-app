@@ -21,7 +21,6 @@ function handleSubmit(e) {
   console.log(results);
 
   showResults(results);
-  addColors(results);
 }
 
 const titleResult = document.querySelector(".show-result h2");
