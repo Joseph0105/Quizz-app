@@ -112,7 +112,6 @@ label {
   padding: 0.5rem;
 }
 .contact-box {
-  border: 1px solid #48ff00;
   padding: 5px;
   width: 70%;
   margin: 0 auto;
@@ -133,19 +132,15 @@ label {
   align-items: center;
   margin-left: 20px;
 }
-.contact-img {
+.contact-link img {
   width: 30px;
   height: 30px;
 }
+
 .contact-img a {
   cursor: pointer;
 }
-.linkedin-green {
-  display: none;
-}
-.link:hover .linkedin {
-  display: none;
-}
-.link:hover .linkedin-green {
-  display: block;
+
+.contact-link:hover svg path {
+  fill: #00bd24;
 }
