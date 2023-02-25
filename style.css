@@ -100,6 +100,7 @@ label {
   text-align: center;
   border-radius: 2px;
   box-shadow: 0px 5px 10px rgb(104, 104, 104, 0.5);
+  margin-bottom: 50px;
 }
 
 .show-result h2 {
@@ -109,4 +110,42 @@ label {
 .show-result p {
   display: none;
   padding: 0.5rem;
+}
+.contact-box {
+  border: 1px solid #48ff00;
+  padding: 5px;
+  width: 70%;
+  margin: 0 auto;
+}
+.contact-title {
+  text-align: center;
+
+  margin-bottom: 20px;
+}
+.contact-div {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+.contact-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+}
+.contact-img {
+  width: 30px;
+  height: 30px;
+}
+.contact-img a {
+  cursor: pointer;
+}
+.linkedin-green {
+  display: none;
+}
+.link:hover .linkedin {
+  display: none;
+}
+.link:hover .linkedin-green {
+  display: block;
 }

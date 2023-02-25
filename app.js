@@ -31,6 +31,8 @@ function showResults(results) {
   const errorsNumber = results.filter((el) => el === false).length;
   console.log(errorsNumber);
 
+  addColors(results);
+
   switch (errorsNumber) {
     case 0:
       titleResult.textContent = `✔️ Bravo, c'est un sans faute ! ✔️`;
