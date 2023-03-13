@@ -1,7 +1,7 @@
 # Bienvenue dans ce projet plutôt cool ou j'ai réalisé un quizz !
 
 
-Allé, je vous mets au défi sur vos connaissances du Québec et de Montréal. Qui aura 5/5 ? 
+Allon-y, je vous mets au défi sur vos connaissances du Québec et de Montréal. Qui aura 5/5 ? 
 
 le but de cet exercice était de débuter la compréhension de JavaScript et sur la manipulation du DOM.
 
